@@ -1,28 +1,14 @@
 {
-  "name": "storegister-app",
+  "name": "layout",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "gulp-concat": "^2.6.1"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-csso": "^4.0.1",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^5.0.0"
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp",
-    "build": "gulp build"
+    "layout": "node-sass css/contact.scss css/contact.css css/mixins/button.scss css/mixins/button.css css/mixins/form.scss css/mixins/form.css css/mixins/table.scss css/mixins/table.css css/layout/layout.scss css/layout/layout.css css/layout/side-nav.scss css/layout/side-nav.css --w --output-style compressed"
   },
-  "browserslist": "last 2 versions",
   "keywords": [],
   "author": "",
   "license": "ISC"
