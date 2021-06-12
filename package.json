@@ -1,15 +1,27 @@
 {
-  "name": "layout",
+  "name": "storegister-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "layout": "node-sass css/contact.scss css/contact.css css/mixins/button.scss css/mixins/button.css css/mixins/form.scss css/mixins/form.css css/mixins/table.scss css/mixins/table.css css/layout/layout.scss css/layout/layout.css css/layout/side-nav.scss css/layout/side-nav.css --w --output-style compressed"
+    "storegister-app": "node-sass css/testing.scss css/testing.css css/contact.scss css/contact.css css/mixins/button.scss css/mixins/button.css css/mixins/form.scss css/mixins/form.css css/mixins/table.scss css/mixins/table.css css/layout/layout.scss css/layout/layout.css css/layout/side-nav.scss css/layout/side-nav.css --w --output-style compressed"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digitalchetan85/storegister-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Digitalchetan85/storegister-app/issues"
+  },
+  "homepage": "https://github.com/Digitalchetan85/storegister-app#readme",
+  "description": ""
 }
